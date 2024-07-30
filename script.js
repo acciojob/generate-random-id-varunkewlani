@@ -1,11 +1,11 @@
 function makeid(l) {
-	let new=""
+	let result=""
 	let charlist="QWERTYUIOPLKJHGFDSAZXCVBNMqwertyuioplkjhgfdsazxcvbnm0123456789";
 	for(let i=0;i<l;i++)
 	{
-		new+=charlist.charAt(Math.floor(Math.random()*charlist.length))
+		result+=charlist.charAt(Math.floor(Math.random()*charlist.length))
 	}
-	return new
+	return result
   // write your code here
 }
 
